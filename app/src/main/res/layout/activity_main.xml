@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jiyun.admin.mytouchtext.MyRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jiyun.admin.mytouchtext.MainActivity">
+
+    <com.jiyun.admin.mytouchtext.MyTextView
+        android:id="@+id/mytv"
+        android:textSize="22sp"
+        android:layout_centerInParent="true"
+        android:text="自定义TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.jiyun.admin.mytouchtext.MyButton
+        android:id="@+id/mybtn"
+        android:text="我的按钮"
+        android:layout_below="@id/mytv"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</com.jiyun.admin.mytouchtext.MyRelativeLayout>
